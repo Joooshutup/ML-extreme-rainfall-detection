@@ -13,7 +13,7 @@ This project was developed and tested under the following hardware and software 
 | **RAM** | 16 GB |
 | **Python** | 3.10.19 |
 | **pandas** | 2.3.3 |
-| **numpy** | 2.x |
+| **numpy** | 2.2.5 |
 | **scikit-learn** | 1.7.2 |
 | **matplotlib** | 3.10.7 |
 | **requests** | 2.32.5 |
@@ -38,28 +38,4 @@ rain-anomaly-2025/
 │  ├─ json2csv.ipynb      # Converted JSON file from CWA to CSV
 │  └─ main.ipynb         # Z-score / IsolationForest anomaly detection
 ```
-## 📊 Data Description
-#### Source
-- **Provider:** [Central Weather Administration (CWA), Taiwan](https://www.cwa.gov.tw/)  
-- **Platform:** [CWA Open Data Platform](https://opendata.cwa.gov.tw/)  
-- **Dataset:** [Daily Precipitation – Ground Weather Station Daily Rainfall Data /每日雨量-地面測站每日雨量資料](https://opendata.cwa.gov.tw/dataset/climate/C-B0025-001)  
-- **Format:** JSON (downloaded and converted manually to CSV)  
-- **Access Date:** 2025-11-11  
-- **License:** [Government Open Data License, Version 1.0 (Taiwan)](https://data.gov.tw/license)
-
-#### Variables (after preprocessing) 
-| Variable | Description | Example |
-| -------- | ------------| --------|
-| `station_id` | Weather station ID | 466881 |
-| `station_name` | Station name (Chinese) | 新北 |
-| `station_name_en` | Station name (English) | New Taipei |
-| `date` | Observation date (YYYY-MM-DD) | 2025-01-01 |
-| `precip_mm` | Daily precipitation (mm) | 8.0 |
-
 ## Processing Summary
-### 🧩 Data Processing Steps
-- Raw JSON downloaded via CWA Open Data API (Dataset ID: S0001).  
-- Parsed and normalized using `convert_json_to_csv.py`.  
-- Extracted fields: `station_id`, `station_name`, `station_name_en`, `date`, `precip_mm`.  
-- Missing or invalid values (e.g., `-99.0`) replaced with `NaN`.  
-- Exported as `data/processed/daily_precip_2025.csv`.
