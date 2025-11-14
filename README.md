@@ -41,10 +41,10 @@ rain-anomaly-2025/
 ### 📈 Example Figure — Extreme Rainfall Anomaly Detection
 
 <p align="center">
-  <img src="output.png" width="100%">
-</p>
-**Figure 1.** *Daily rainfall (blue line) and AI-detected anomaly events (red points) in Taipei City during 2025.*  
+  <img src="output.png" width="100%"> <br> <em>Figure 1. Daily rainfall (blue line) and AI-detected anomaly events (red points) in Taipei City during 2025. <br>
 Extreme spikes represent unusual precipitation events captured by the model using Isolation Forest + statistical validation.
+</em>
+</p>
 
 ### 🏁 Conclusion
 
