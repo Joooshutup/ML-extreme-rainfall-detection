@@ -3,6 +3,11 @@
 This project applies unsupervised machine learning (Anomaly Detection) to detect extreme rainfall events in Taiwan using daily precipitation data from the Central Weather Administration (CWA) Open Data Platform.
 The analysis identifies rainfall outliers by station and date, highlighting regional and temporal patterns of extreme weather during 2025.
 
+## 🧠 Objectives
+Detect and visualize extreme rainfall anomalies across Taiwan. 
+Compare the frequency and timing of anomalies among different regions. 
+Demonstrate how AI models (e.g., Z-score, Isolation Forest) can reveal hidden climate patterns.
+
 ## 🖥️ Development Environment
 
 This project was developed and tested under the following hardware and software environment:  
@@ -21,11 +26,6 @@ This project was developed and tested under the following hardware and software 
 > This project does not require GPU acceleration.  
 > All data processing steps and anomaly detection models  
 > (including Z-score and Isolation Forest) run smoothly on a standard CPU environment.
-
-## 🧠 Objectives
-Detect and visualize extreme rainfall anomalies across Taiwan. 
-Compare the frequency and timing of anomalies among different regions. 
-Demonstrate how AI models (e.g., Z-score, Isolation Forest) can reveal hidden climate patterns.
 
 ## 📂 Project Structure
 ```
