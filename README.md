@@ -33,18 +33,10 @@ rain-anomaly-2025/
 ├─ README.md
 ├─ DATA_SOURCES.md
 ├─ data/
-│  ├─ raw/          # Original JSON files from CWA
-│  ├─ processed/    # Converted and cleaned CSV/Parquet files
-├─ notebooks/
-│  ├─ 01_feature_eng.ipynb      # JSON parsing, cleaning, and feature extraction
-│  └─ 02_anomaly_detection.ipynb# Z-score / IsolationForest anomaly detection
+│  ├─ rain.csv/          # dataset
 ├─ src/
-│  ├─ data_download/
-│  │  └─ convert_json_to_csv.py # Script for JSON → CSV conversion
-│  └─ viz.py                    # Visualization utilities (heatmap, line plots)
-├─ reports/
-│  └─ figures/                  # Output visualizations (heatmaps, maps, plots)
-└─ requirements.txt
+│  ├─ json2csv.ipynb      # Converted JSON file from CWA to CSV
+│  └─ main.ipynb         # Z-score / IsolationForest anomaly detection
 ```
 ## 📊 Data Description
 #### Source
