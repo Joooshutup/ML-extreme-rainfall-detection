@@ -54,13 +54,10 @@ we successfully detected abnormal precipitation spikes that typically correspond
 to seasonal heavy rain, monsoon-driven events, or localized extreme weather.
 
 To validate the model, Z-score–based manual anomaly labeling was also performed.  
-The comparison shows:
-**AI-detected anomalies align strongly with Z-score manual inspection**,  
-  indicating that the model captures meaningful deviations.
-**Northern Taiwan (e.g., Taipei, New Taipei)** exhibits clear extreme rainfall 
-  events during late autumn and early winter, consistent with the Northeast Monsoon.
-**Southern and eastern regions (e.g., Pingtung, Taitung)** show more frequent but 
-  smaller anomalies, reflecting localized convective rainfall patterns.
+The comparison shows:  
+**AI-detected anomalies align strongly with Z-score manual inspection**, indicating that the model captures meaningful deviations.  
+**Northern Taiwan (e.g., Taipei, New Taipei)** exhibits clear extreme rainfall events during late autumn and early winter, consistent with the Northeast Monsoon.  
+**Southern and eastern regions (e.g., Pingtung, Taitung)** show more frequent but smaller anomalies, reflecting localized convective rainfall patterns.  
 
 This project also demonstrates the feasibility of converting government open data 
 (JSON → CSV), engineering features, and applying AI-driven anomaly detection 
